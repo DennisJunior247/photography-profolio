@@ -9,7 +9,7 @@ const App = () => {
       <Hero />
       <Featured collection={ladiesCollection} title="The 1951 Collection" />
       <Slideshow />
-      <Featured collection={BlackXwhiteCollection} title="Black X White" />
+      <Featured collection={BlackXwhiteCollection} title="Black X White Collection" />
       <Footer />
     </div>
   );
