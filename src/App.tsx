@@ -1,14 +1,15 @@
 import { Header, Footer } from "./layout";
-import { Hero, Featured, Slideshow, Banner } from "./components";
+import { Hero, Featured, Slideshow } from "./components";
+import { ladiesCollection, BlackXwhiteCollection } from "./utils/dataHelper";
 
 const App = () => {
   return (
     <div className="App">
       <Header />
       <Hero />
-      <Featured />
+      <Featured collection={ladiesCollection} title="The 1951 Collection" />
       <Slideshow />
-      <Banner />
+      <Featured collection={BlackXwhiteCollection} title="Black X White" />
       <Footer />
     </div>
   );

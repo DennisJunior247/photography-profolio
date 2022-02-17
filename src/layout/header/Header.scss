@@ -4,12 +4,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  padding-bottom: 2em;
   .logo {
     font-size: 1rem;
     color: #ffffff;
 
-    @include respondMax('sm-tablet') {
+    @include respondMax("sm-tablet") {
       font-size: 0.9rem;
     }
   }
@@ -26,7 +26,7 @@ header {
     border: none;
     width: 40px;
 
-    @include respondMax('sm-tablet') {
+    @include respondMax("sm-tablet") {
       width: 35px;
     }
   }
@@ -79,7 +79,7 @@ header {
   .menu__item {
     margin-right: 1rem;
 
-    @include respondMax('sm-tablet') {
+    @include respondMax("sm-tablet") {
       margin-right: 0.7rem;
     }
   }
@@ -91,7 +91,7 @@ header {
     text-decoration-style: wavy;
     transition: color ease-in 0.2s;
 
-    @include respondMax('sm-tablet') {
+    @include respondMax("sm-tablet") {
       font-size: 0.75rem;
     }
 

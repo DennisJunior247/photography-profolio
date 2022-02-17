@@ -6,13 +6,13 @@ const Header = () => {
 
   return (
     <header>
-      <div className="logo">Haute Couture</div>
+      <div className="logo">The Photographers Studio</div>
 
       <nav>
         <ul className={showMenu ? "menu" : "menu menu--hidden"}>
           <li className="menu__item">
             <a
-              href="https://twitter.com/kadetXx"
+              href="https://twitter.com/NnannaPrince2"
               target="_blank"
               rel="noreferrer noopener"
               className="menu__link"
@@ -23,12 +23,12 @@ const Header = () => {
 
           <li className="menu__item">
             <a
-              href="https://github.com/kadetXx/haute-couture"
+              href="https:///thephotographers_studio"
               target="_blank"
               rel="noreferrer noopener"
               className="menu__link"
             >
-              GH.
+              IG.
             </a>
           </li>
         </ul>

@@ -5,9 +5,9 @@ const Footer = () => {
 
   return (
     <footer>
-      <p className="copyright-text">&copy; Copyright {year}, Haute Couture </p>
+      <p className="copyright-text">&copy; Copyright {year}, The Photographers Studio </p>
     </footer>
   );
-};
+}
 
 export default Footer;
