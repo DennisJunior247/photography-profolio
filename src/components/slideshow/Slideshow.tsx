@@ -49,7 +49,7 @@ const Slideshow = () => {
 
   return (
     <div className="slideshow">
-      <TitleBlock subtitle="Featured" title="The Remix Collection" />
+      <TitleBlock subtitle="Featured" title="The Intermixed Collection" />
       <div className="slideshow__slider">
         {remixCollection.map((item, index) => (
           <div
